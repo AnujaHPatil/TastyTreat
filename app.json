@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "TastyTreat",
+    "slug": "TastyTreat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo3.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_logo3.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anuja2804.TastyTreat"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e8bd332-d688-47a8-bb31-41b3f296c798"
+      }
+    }
+  }
+}
